@@ -1,0 +1,49 @@
+{% extends "base.html" %}
+{% load static %}
+{% block content %}
+
+<div class="container block news ">
+    <div class="top-text">
+        <div>
+            <h3 class='news-h3'>Ikkinchi mutaxassislik</h3>
+            <div class="line-b"></div>
+        </div>
+        <div class="line"></div>
+    </div>
+    <div class="row mt-4">
+        <div class="block_left col col-xxl-3 col-xl-3 col-lg-3">
+            {% include "qabul/im/__im-copy.html" %}
+        </div>
+        <div class="block_right col col-xxl-9 col-xl-9 col-lg-9 ">
+            <div class="card-box_right">
+		
+		<p style="text-align: center;"><strong>Ikkinchi va undan keyingi ta'limni olish bo'yicha murojaatlarga mas'ul</strong></p>
+                  <table class="table table-bordered" width="100%">
+                   <tbody>
+                    <tr>
+                    <td style="text-align: center;" width="47"><strong>№</strong></td>
+                    <td style="text-align: center;" width="331">F.I.Sh</td>
+                    <td style="text-align: center;" width="94"><strong>Lavozimi</strong></td>
+                    <td style="text-align: center;" width="132"><strong>Biriktirilgan telefon raqami</strong></td>
+                    <td width="132">
+                    <p style="text-align: center;"><strong>Uyali telefon raqami</strong></p>
+                    </td>
+                    </tr>
+                    <tr>
+                    <td width="47">1</td>
+                    <td width="331">Egamberdiyev Fazliddin Otaqulovich</td>
+                    <td width="94">Kafedra mudiri</td>
+                    <td width="132">88 189 87 77</td>
+                    <td width="132">(90) 516 -44- 89</td>
+                    </tr>
+                   </tbody>
+                 </table>	                
+                
+            </div>
+        </div>
+    </div>
+</div>
+
+
+
+{% endblock content %}
